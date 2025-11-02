@@ -5,8 +5,6 @@ public class Swap {
 
         System.out.println("Before Swapping:");
         System.out.println("a = " + a + "  b = " + b);
-
-        // Swapping without a temporary variable
         a= a+ b;
         b= a- b;
         a= a- b;
@@ -15,3 +13,4 @@ public class Swap {
         System.out.println("a= "+ a +"b= "+b);
     }
 }
+//prblm
